@@ -1,0 +1,275 @@
+/* General ================================================== */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page {
+  min-height: 100vh;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 35px;
+}
+
+.secondary-title {
+  font-size: 25px;
+}
+
+.descript-text {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+li {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #3D4D2E;
+}
+
+
+/* Landing Page ================================================= */
+
+.landing {
+  height: 100vh;
+}
+
+.greenlanding {
+  height: 50%;
+  width: 100%;
+  background-color: #3D4D2E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tanlanding {
+  height: 50%;
+  width: 100%;
+  background-color: #DEDACE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width:1024px) {
+  
+  .tantitle {
+    margin: 0;
+    color:#DEDACE;
+    font-size: 90px;
+  }
+  
+  .greentitle {
+    margin: 0;
+    color:#3D4D2E;
+    font-size: 90px;
+  }
+
+}
+
+@media only screen and (max-width:1024px) {
+  
+  .tantitle {
+    margin: 0;
+    color:#DEDACE;
+    font-size: 60px;
+  }
+  
+  .greentitle {
+    margin: 0;
+    color:#3D4D2E;
+    font-size: 60px;
+  }
+  
+}
+
+/* About Page ======================================== */
+
+/* Pic & Bio */
+
+.photo-holder {
+  min-width: 310px;
+  min-height: 310px;
+  background-color: #3D4D2E;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+
+@media only screen and (max-width:1024px) {
+
+  .photo-holder {
+    min-width: 310px;
+    min-height: 310px;
+    background-color: #3D4D2E;
+    border-radius: 50%;
+  }
+
+  .profile-picture {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+
+}
+
+.biography {
+  text-align: center;
+  width: 26rem;
+}
+
+@media only screen and (max-width:1024px) {
+
+  .biography {
+    text-align: center;
+    width: 16rem;
+  }
+
+}
+
+/* Skills */
+
+.skills-holder-hard {
+  width: 300px;
+  min-height: 200px;
+  /* background-color: #DEDACE; */
+  border: solid 4px #3D4D2E;
+  /* border-radius: 15px; */
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills-holder-soft {
+  width: 300px;
+  min-height: 150px;
+  /* background-color: #DEDACE; */
+  border: solid 4px #3D4D2E;
+  /* border-radius: 15px; */
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (min-width:1024px) {
+
+  .skills-holder-hard {
+    width: 450px;
+    min-height: 200px;
+    /* background-color: #DEDACE; */
+    border: solid 4px #3D4D2E;
+    /* border-radius: 15px; */
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .skills-holder-soft {
+    width: 300px;
+    min-height: 150px;
+    /* background-color: #DEDACE; */
+    border: solid 4px #3D4D2E;
+    /* border-radius: 15px; */
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }  
+
+}
+
+/* Projects Page ======================================== */
+
+.project-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.proj-pic {
+  width: 300px;
+  border: #3D4D2E solid 4px;
+  /* border-radius: 15px; */
+}
+
+@media only screen and (min-width:1024px) {
+  .proj-pic {
+    width: 450px;
+  }
+}
+
+/* Contact Page ========================================== */
+
+.contact-page {
+ margin-top: 2rem;
+ padding-top: .5rem;
+ padding-bottom: .5rem;
+ background-color: rgb(218, 218, 218);
+ display: flex;
+ justify-content: center;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
