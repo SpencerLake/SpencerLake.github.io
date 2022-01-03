@@ -17,9 +17,9 @@ export default function Projects() {
                         Web application to create activities 
                         that will display an open/closed indicator, and be linked to a real 
                         life location, which is viewable by a map 
-                        <a id="demo-link" target="_blank" href="https://youtu.be/jtl2Cjk7gYE"> Click here </a>
+                        <a id="demo-link" target="_blank" rel="noopener" href="https://youtu.be/jtl2Cjk7gYE"> Click here </a>
                          to see a 
-                        <a id="demo-link" target="_blank" href="https://youtu.be/jtl2Cjk7gYE"> demo</a>
+                        <a id="demo-link" target="_blank" rel="noreffer" href="https://youtu.be/jtl2Cjk7gYE"> demo</a>
                     </p>
                 </div>
             </div>
