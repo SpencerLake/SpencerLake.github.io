@@ -15,7 +15,6 @@ export default function About() {
                      Recently I stumbled upon the world of coding and instantly
                       fell in love! I am a Software Engineer and graduated from
                        DevMountain.</p>
-                <h1>test</h1>
             </div>
             <h2 className='secondary-title'>HARD SKILLS</h2>
             <div className='skills-holder-hard'>

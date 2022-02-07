@@ -2,6 +2,8 @@ import React from "react"
 import "./App.css"
 import todaysVibe from "../todaysVibe.png"
 import vainClimberTracker from "../vainClimberTracker.png"
+import pop1 from "../population1.png"
+import pop2 from "../population2.png"
 
 export default function Projects() {
     return (
