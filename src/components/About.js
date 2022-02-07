@@ -13,7 +13,7 @@ export default function About() {
                 <p className='descript-text'>For the duration on my working career I've been a 
                     Jack-Of-All-Trades, ranging from salesman to caregiver to laborer.
                      Recently I stumbled upon the world of coding and instantly
-                      fell in love! I am a Web Developer and graduated from
+                      fell in love! I am a Software Engineer and graduated from
                        DevMountain.</p>
                 <h1>test</h1>
             </div>
@@ -26,6 +26,8 @@ export default function About() {
                     <li>React</li>
                     <li>NodeJs</li>
                     <li>Express</li>
+                    <li>Ajax</li>
+                    <li>Bootstrap</li>
                 </ul>
                 <ul className='skill-list-hard'>
                     <li>Axios</li>
@@ -34,14 +36,22 @@ export default function About() {
                     <li>Github</li>
                     <li>Firebase</li>
                     <li>Horoku</li>
+                    <li>jQuery</li>
+                    <li>Postman</li>
                 </ul>
             </div>
             <h2 className='secondary-title'>SOFT SKILLS</h2>
             <div className='skills-holder-soft'>
                 <ul className='skill-list-soft'>
                     <li>Communication</li>
+                    <li>Problem Solving</li>
+                    <li>Time Managment</li>
+                    <li>Adaptable</li>
+                </ul>
+                <ul className='skill-list-soft'>
+                    <li></li>
                     <li>Teamwork</li>
-                    <li>Self-Driven</li>
+                    <li>Self Driven</li>
                     <li>Wlling to learn</li>
                 </ul>
             </div>

@@ -37,6 +37,19 @@ export default function Projects() {
                     </p>
                 </div>
             </div>
+            <div className="project-holder">
+                <h2 className="secondary-title">Population Info Retriever</h2>
+                <div >
+                    <img src={pop1} alt='Picture of project' className='proj-pic'></img>
+                </div>
+                <div className="biography">
+                    <p className="descript-text"> 
+                        A basic application that retrieves information from external API 
+                        to allow user to see populations each year and each state's population 
+                        that year. 
+                    </p>
+                </div>
+            </div>
         </div>
     )
 }
