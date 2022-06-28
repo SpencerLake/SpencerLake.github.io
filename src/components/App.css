@@ -1,6 +1,8 @@
 /* General ================================================== */
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -77,8 +79,21 @@ a {
 
 /* Landing Page ================================================= */
 
+#landing {
+  position: absolute;
+  z-index: 10;
+}
+
+#landingFade {
+  position: absolute;
+  z-index: -10;
+  left: 200vw;
+}
+
 .landing {
   height: 100vh;
+  width: 100vw;
+  transition: all .2s ease-in-out;
 }
 
 .greenlanding {
@@ -132,6 +147,11 @@ a {
 }
 
 /* About Page ======================================== */
+
+#about {
+  position: relative;
+  z-index: 0;
+}
 
 /* Pic & Bio */
 
@@ -239,6 +259,11 @@ a {
 
 /* Projects Page ======================================== */
 
+#projects {
+  position: relative;
+  z-index: 0;
+}
+
 .project-holder {
   display: flex;
   flex-direction: column;
@@ -250,8 +275,8 @@ a {
 
 .proj-pic {
   width: 300px;
-  border: #3D4D2E solid 4px;
-  /* border-radius: 15px; */
+  /* border: #3D4D2E solid 1px; */
+  border-radius: 5px;
 }
 
 @media only screen and (min-width:1024px) {

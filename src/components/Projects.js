@@ -1,13 +1,13 @@
 import React from "react"
 import "./App.css"
 import todaysVibe from "../todaysVibe.png"
-import vainClimberTracker from "../vainClimberTracker.png"
+import vainClimberTracker from "../climbingVanity.png"
 import pop1 from "../population1.png"
 import pop2 from "../population2.png"
 
 export default function Projects() {
     return (
-        <div className="page">
+        <div className="page" id="projects">
             <h2 className="section-title">PROJECTS</h2>
             <div className="project-holder">
                 <h2 className="secondary-title">Today's Vibe</h2>
@@ -23,20 +23,22 @@ export default function Projects() {
                          to see a 
                         <a id="demo-link" target="_blank" rel="noreffer" href="https://youtu.be/jtl2Cjk7gYE"> demo</a>
                     </p>
+                    <p>React.js | Javascript | HTML | CSS | Firebase | NoSQL</p>
                 </div>
             </div>
             <div className="project-holder">
-                <h2 className="secondary-title">Vain Climber Tracker</h2>
+                <h2 className="secondary-title">Climbing Vanity</h2>
                 <div >
                     <img src={vainClimberTracker} alt='Picture of project' className='proj-pic'></img>
                 </div>
                 <div className="biography">
                     <p className="descript-text"> 
-                        A basic application that allows a climber to keep track of
+                        A web application that allows a climber to keep track of
                         climbs they have accomplished and want to remember. 
                         <a id="demo-link" target="_blank" href="https://youtu.be/LocMD9GrSfE">Click here </a> 
                         to see a <a id="demo-link" target="_blank" href="https://youtu.be/LocMD9GrSfE">demo</a>
                     </p>
+                    <p>Javascript | HTML | CSS</p>
                 </div>
             </div>
             <div className="project-holder">
@@ -50,6 +52,7 @@ export default function Projects() {
                         to allow user to see populations each year and each state's population 
                         that year. 
                     </p>
+                    <p>jQuery | ajax | HTML | CSS</p>
                 </div>
             </div>
         </div>
