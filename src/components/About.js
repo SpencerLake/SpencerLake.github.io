@@ -10,11 +10,12 @@ export default function About() {
                 <img src={profilePic} alt='Profile Portrait' className='profile-picture'></img>
             </div>
             <div className='biography'>
-                <p className='descript-text'>For the duration on my working career I've been a 
-                    Jack-Of-All-Trades, ranging from salesman to caregiver to laborer.
-                     Recently I stumbled upon the world of coding and instantly
-                      fell in love! I am a Software Engineer and graduated from
-                       DevMountain.</p>
+                <p className='descript-text'>I am currently working for Benefit Coordinators Corporation as their
+                Technical Solutions Specialist. I manage most of the automation along with 
+                creating data pipelines for the rest of the company. It has been incredibly 
+                fulfilling and a good confidence boost proving to myself I was able to 
+                learn an entirely new tech stack and contribute to my team in a multitude 
+                of ways!</p>
             </div>
             <h2 className='secondary-title'>HARD SKILLS</h2>
             <div className='skills-holder-hard'>
@@ -32,9 +33,9 @@ export default function About() {
                     <li>Axios</li>
                     <li>NoSQL</li>
                     <li>SQL</li>
-                    <li>Github</li>
-                    <li>Firebase</li>
-                    <li>Horoku</li>
+                    <li>MS SQL Studio</li>
+                    <li>MS Access</li>
+                    <li>MS Excel</li>
                     <li>jQuery</li>
                     <li>Postman</li>
                 </ul>
