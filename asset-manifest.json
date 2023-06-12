@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a97b834c.css",
-    "main.js": "/static/js/main.2b51840f.js",
+    "main.js": "/static/js/main.d9db6b34.js",
     "static/media/climbingVanity.png": "/static/media/climbingVanity.b70cf2b7fd8f4d04dcbc.png",
     "static/media/todaysVibe.png": "/static/media/todaysVibe.cec61c9b3216075b3b07.png",
     "static/media/propic.jpg": "/static/media/propic.79f2610fbec3b1e05580.jpg",
@@ -9,10 +9,10 @@
     "static/media/population1.png": "/static/media/population1.73f94623e4154944761d.png",
     "index.html": "/index.html",
     "main.a97b834c.css.map": "/static/css/main.a97b834c.css.map",
-    "main.2b51840f.js.map": "/static/js/main.2b51840f.js.map"
+    "main.d9db6b34.js.map": "/static/js/main.d9db6b34.js.map"
   },
   "entrypoints": [
     "static/css/main.a97b834c.css",
-    "static/js/main.2b51840f.js"
+    "static/js/main.d9db6b34.js"
   ]
 }
