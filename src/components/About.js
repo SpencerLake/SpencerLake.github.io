@@ -23,21 +23,15 @@ export default function About() {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
-                    <li>React</li>
-                    <li>NodeJs</li>
-                    <li>Express</li>
-                    <li>Ajax</li>
-                    <li>Bootstrap</li>
-                </ul>
-                <ul className='skill-list-hard'>
-                    <li>Axios</li>
                     <li>NoSQL</li>
                     <li>SQL</li>
-                    <li>MS SQL Studio</li>
+                </ul>
+                <ul className='skill-list-hard'>
+                    <li>Python</li>
+                    <li>MS VBA</li>
                     <li>MS Access</li>
                     <li>MS Excel</li>
-                    <li>jQuery</li>
-                    <li>Postman</li>
+                    <li>MS SQL Studio</li>
                 </ul>
             </div>
             <h2 className='secondary-title'>SOFT SKILLS</h2>

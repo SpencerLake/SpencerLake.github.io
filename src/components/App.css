@@ -85,9 +85,11 @@ a {
 }
 
 #landingFade {
-  position: absolute;
-  z-index: -10;
-  left: 200vw;
+  /* position: absolute; */
+  /* z-index: -10;
+  left: 200vw; */
+  display: none;
+  transition: all .2s ease-in-out;
 }
 
 .landing {
